@@ -11,6 +11,30 @@
       margin-right: auto;
     }
 
+    .social-icons {
+      display: flex;
+      margin-bottom: 20px;
+      margin-right: 10px;  
+      justify-content: flex-end; 
+    }
+
+    .social-icons i {
+      margin-right: 10px; 
+      font-size: 24px;
+      color: #444;
+    }
+    .social-icons a:hover i.fab.fa-linkedin {
+      color: #0077b5; /* LinkedIn color */
+    }
+
+    .social-icons a:hover i.fab.fa-medium {
+      color: #00ab6c; /* Medium color */
+    }
+
+    .social-icons a:hover i.fab.fa-google {
+      color: #d85031; /* Google color */
+    }
+
     h1 {
       font-size: 2em;
       text-align: center;
