@@ -23,16 +23,17 @@
       font-size: 24px;
       color: #444;
     }
+
     .social-icons a:hover i.fab.fa-linkedin {
-      color: #0077b5; /* LinkedIn color */
+      color: #0077b5;
     }
 
     .social-icons a:hover i.fab.fa-medium {
-      color: #00ab6c; /* Medium color */
+      color: #00ab6c;
     }
 
     .social-icons a:hover i.fab.fa-google {
-      color: #d85031; /* Google color */
+      color: #d85031;
     }
 
     h1 {
@@ -77,10 +78,6 @@
       border-radius: 4px;
       cursor: pointer;
       font-weight: bold;
-    }
-
-    .icon {
-      margin-right: 10px;
     }
 
     @media screen and (max-width: 600px) {
