@@ -3,7 +3,7 @@ function performScan() {
         const scanType = document.getElementById("scanType").value;
 
         if (url.trim() === "") {
-          alert("Please enter a valid URL.");
+          alert("Please enter a valid Domain.");
           return;
         }
 
@@ -191,7 +191,7 @@ function performScan() {
             searchUrl = `https://www.google.com/search?q=${encodeURIComponent(searchQuery)}`;
             break;
           default:
-            alert("Invalid scan type.");
+            alert("Invalid dork type.");
             return;
         }
 
